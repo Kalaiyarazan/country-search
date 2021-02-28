@@ -1,0 +1,43 @@
+.country-item-container {
+  display: flex;
+  flex-direction: column;
+  width: 335px;
+  height: 200px;
+  box-shadow: 2px 2px 7px grey;
+  padding: 10px;
+  margin: 10px;
+  justify-content: space-between;
+
+  .country-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    .country-flag {
+      img {
+        height: 60px;
+        width: 100px;
+      }
+    }
+
+    .country-name-capital {
+      width: 80%;
+      margin-left: 10px;
+      .capital-name {
+        color: grey;
+        margin-top: 10px;
+      }
+      .country-name {
+        margin: 0px;
+      }
+    }
+  }
+  .country-body {
+    h4 {
+      margin-top: 10px;
+    }
+    h1 {
+      margin-top: 10px;
+    }
+  }
+}
