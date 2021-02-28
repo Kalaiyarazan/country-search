@@ -1,11 +1,18 @@
 .pagination {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   margin: 10px;
 
   .pagination-item {
     height: 35px;
     width: 35px;
+  }
+
+  .active {
+    background-color: rgb(190, 5, 5);
+    height: 45px;
+    width: 45px;
   }
 }
