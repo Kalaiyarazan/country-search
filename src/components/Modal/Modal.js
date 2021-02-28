@@ -45,7 +45,7 @@ const Modal = ({ country, modalIsOpen, setModalIsOpen }) => {
               <h1>{region}</h1>
             </div>
             <div className='content-group'>
-              <h3>Popultion</h3>
+              <h3>Population</h3>
               <h1>{population}</h1>
             </div>
           </div>
