@@ -74,22 +74,21 @@ button {
   }
 
   .flag {
-    text-align: center;
-    margin-top: 30px;
-  }
-
-  h2 {
-    text-align: center;
+    margin-top: 15px;
   }
 
   .button {
-    text-align: center;
-    margin-top: 20px;
+    margin-top: 10px;
+
+    button {
+      margin-top: -8px;
+      font-size: 18px;
+    }
   }
 
   .modal-header {
     h2 {
-      margin: 15px;
+      margin: 0px 10px;
     }
   }
 }
