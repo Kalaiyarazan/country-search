@@ -27,3 +27,19 @@
     }
   }
 }
+
+@media (max-width: 570px) {
+  .header-container {
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 0px;
+    .header-logo {
+      width: 100%;
+    }
+
+    .header-search {
+      width: 100%;
+      text-align: center;
+    }
+  }
+}
